@@ -26,9 +26,9 @@ class SearchBar extends Component {
   render () {
     return <form onSubmit={this.onFormSubmit} className="input-group">
       <input
-        placeholder="Five-day Forecast"
+        placeholder="City"
         className="form-control"
-        value={this.state.term}
+        // value={this.state.term}
         onChange={this.onInputChange}
       />
       <span className="input-group-btn">

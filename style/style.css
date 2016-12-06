@@ -1,3 +1,15 @@
+ul {
+  list-style-type: none;
+}
+
+/*-----------------------------------------------------------------app.js*/
+
+.logo{
+  margin-top: 20px;
+}
+
+/*-----------------------------------------------------------------search.js*/
+
 .input-group {
   margin: 20px 0px;
 }
@@ -10,4 +22,18 @@ td, th {
 td:first-of-type {
   height: 200px;
   width: 250px;
+}
+
+/*-----------------------------------------------------------------forecast.js*/
+
+.divForecast {
+  display: flex;
+}
+
+.divForecast ul {
+  margin: auto;
+}
+
+.divForecast ul li {
+  border: 1px solid #000;
 }
