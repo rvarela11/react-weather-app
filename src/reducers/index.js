@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import GetWeather from './get_weather';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  weather: GetWeather
 });
 
 export default rootReducer;
